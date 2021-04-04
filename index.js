@@ -40,4 +40,4 @@ app.get('/',(req,res)=>{
     res.send('fuck')
 })
 
-app.listen(5000,()=>console.log('5000 is calling'))
+app.listen(process.env.PORT || 5000)

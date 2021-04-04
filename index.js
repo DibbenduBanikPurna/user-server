@@ -37,7 +37,7 @@ client.connect(err => {
 
 
 app.get('/',(req,res)=>{
-    res.send('fuck')
+    res.send('Welcome To KPNX CLAN Server')
 })
 
 app.listen(process.env.PORT || 5000)
